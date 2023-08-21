@@ -1,43 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Template Project</title>
-  <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
-  <!-- <link rel="stylesheet" href="./css/main.css"> -->
-  <link rel="stylesheet" href="./css/main.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template Project</title>
+    <!-- <link rel="stylesheet" href="./css/normalize.css"> -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- <link rel="stylesheet" href="./css/main.min.css"> -->
+  </head>
+  <body>
+    <!-- SITE HEADER START -->
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__block">
+            <a href="/" class="header__logo">
+              <img src="img2/logo.jpg" alt="" />
+            </a>
+          </div>
+          <!--/header__block-->
 
+          <nav class="nav">
+            <li>
+              <a href="/" class="nav__link active lng-glavnoe" key="about"
+                >MAIN
+                </a
+              >
+            </li>
+            <li>
+              <a href="#OUR-ADVANTAGES" class="nav__link lng-uslugi" key="goods"
+                >OUR SERVICES
+                </a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav__link lng-ocompany" key="benefits"
+                >ABOUT US</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="nav__link lng-contact" key="contacts"
+                >CONTACT US</a
+              >
+            </li>
+          </nav>
+        </div>
+        <!--/header__wrapper-->
+      </div>
+      <!--/container-->
+    </header>
 
+    <!-- SITE HEADER END -->
 
-  <!-- SITE HEADER START -->
+    <section class="intro" style="background-image: url('images/hero-img.jpg')">
+      <div class="container">
+        <div class="intro__content">
+          <div class="intro__block">
+            <h1 class="intro__title lng-infoabout">
+              Export industry company
+            </h1>
+            <h2 class="intro__title2 lng-infoabout2">
+            The main goal and task of our organization is to provide environmentally friendly products to the world market.
+            </h2>
 
-  <header class="site-header">
+            <a href="#about" class="btn lng-podrobnee"> More </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/intro-->
+   <section class="info">
+      <div class="container">
+        <div class="wrapper">
+          <div class="block">
+            <div class="info__item">
+              <div class="info__img">
+                <img src="/images/лого-производство.jpg" alt="" />
+              </div>
+              <h4 class="info__title   ">PRODUCTION</h4>
+            </div>
+          </div>
+          
+          <div class="block">
+            <div class="info__item">
+              <div class="info__img">
+                <img src="/images/icon-1.png" alt="" />
+              </div>
+              <h4 class="info__title ">Storage</h4>
+            </div>
+          </div>
+       
+          <div class="block">
+            <div class="info__item">
+              <div class="info__img">
+                <img src="/images/экспорт.svg" alt="" />
+              </div>
+              <h4 class="info__title ">Eksport</h4>
+            </div>
+          </div>
+ 
+        </div>
+     
+      </div>
+  
+    </section> 
+     <section id="OUR-ADVANTAGES" class="section">
+      <div class="container">
+        <h2 class="block__title lng-preimushestva">OUR ADVANTAGES  </h2>
+        <h3 class="block__link lng-vibirayutnas">
+          WHY CHOOSE US
+        </h3>
 
-  </header>
+        <div class="wrapper">
+          <div class="block">
+            <div class="services-item">
+              <img class="services__img" src="/images/semena-1.png" alt="images" />
+              <h2 class="lng-kachestvo">  QUALITY SERVICE</h2>
+              <p class="lng-kachestvo-info">
+                Our top priority is to provide quality service to our customers.
+              </p>
+            </div>
+          </div>
+          <div class="block">
+            <div class="services-item">
+              <img class="services__img" src="/images/semena-2.svg" alt="images" />
+              <h2 class="lng-honest">HONESTY AND OPENNESS</h2>
+              <p class="lng-honest-info">
+                We conduct our business honestly, openly, with integrity and in accordance with our values
+              </p>
+            </div>
+          </div>
+          <div class="block">
+            <div class="services-item">
+              <div class="services">
+                <img class="services__img" src="/images/semena3.jpg" alt="foto" />
+              </div>
+              <h2 class="lng-partners">  STRONG PARTNERSHIPS</h2>
+              <p class="lng-partners-info">
+                We prioritize building strong partnerships with each client.
+              </p>
+            </div>
+          </div>
+          <div class="block">
+            <div class="services-item">
+              <img class="services__img" src="/images/semena-4.jpg" alt="foto" />
+              <h2 class="lng-solutions">  OPTIMUM SOLUTIONS</h2>
+              <p class="lng-solutions-info">
+                Our optimal solutions help us deliver products at the best conditions for our customers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
 
-  <!-- SITE HEADER END -->
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="about__wrapper">
+          <div class="about__block">
+            <h2 class="block__title text-white lng-aboutus">ABOUT US</h2>
+            <p class="about__text lng-aboutus-info">
+              Export-industry limited liability company is a private organization, founded on 01.03.2022 and I am the head.The main goal of the organization of the society is to make a profit for the benefit of the participants and to release ecologically clean, high-quality products of Uzbekistan to the world market, especially to the American market.
+            </p>
+            <a
+              href="frukts.html"
+             
+              class="about__link lng-moreproducts"
+            >
+            MORE ABOUT PRODUCTS
+            </a>
+          </div>
 
-
-  <!-- SITE MAIN START -->
-  <main class="site-main">
-
-    <section class="hero">
-      
+          <img src="/images/about_us_2.jpg" alt="" class="about__img" />
+        </div>
+      </div>
     </section>
 
-  </main>
+    <section id="contact" class="contacts">
+      <div class="container">
+        <h2 class="block__title text-white lng-contactus"> CONTACT US  </h2>
+        <form class="contacts__form"  action="https://formsubmit.co/abdusattarovadilfuza7@gmail.com"   method="post" 
+        autocomplete="off">
+          <div class="form__row">
+            <div class="form__group">
+              <input type="text" class="input" placeholder=" " />
+              <label for="" class="label lng-name"> Name </label>
+            </div>
+            <div class="form__group">
+              <input type="text" class="input" placeholder=" " />
+              <label for="" class="label lng-surname"> Surname </label>
+            </div>
+          </div>
 
-  <!-- SITE MAIN END -->
+          <div class="form__row">
+            <div class="form__group">
+              <input type="email" class="input" placeholder=" " />
+              <label for="" class="label"> Email </label>
+            </div>
+            <div class="form__group">
+              <input type="tel" class="input" placeholder=" " />
+              <label for="" class="label lng-phone"> Phone </label>
+            </div>
+          </div>
 
-  <!-- SITE FOOTER START -->
-  <footer class="site-footer">
+          <div class="form__row">
+            <div class="form__group">
+              <textarea class="textarea" placeholder=" " name=""></textarea>
+              <label for="" class="label lng-message">  Your message.. </label>
+            </div>
+          </div>
 
-  </footer>
-  <!-- SITE FOOTER END -->
-
-</body>
+          <button class="btn text-upper lng-send" type="submit">
+            Send
+          </button>
+        </form>
+      </div>
+      <div class="contacts__img">
+        <img  class="contacts-img" src="/images/contact.jpg" alt="" />
+      </div>
+    </section>
+ 
+  <footer class="footer">
+      <div class="container">
+          <div class="footer__wrapper">
+            
+            <div class="contacts__footer">
+                <h4 class="lng-footer-contacts">Contacts</h4>
+                  
+                      <div class="adress__span">
+                        <strong class="lng-address">Address:</strong> 
+                    Sirdaryo region, Sardoba district, Pakhtaobot town, Fayzli Obot MFY, Binokor street, 2nd house </div> 
+    
+    
+                  <span>telephone:</span> 
+                <span>
+<a href="tel:+998956061111">  +998 95 606 11 11</a>
+                
+                  
+                </span>
+                  <div class="mail">
+                  
+              <div class="mail__span">
+                <span class="lng-mail">e-mail:</span>
+                <a href="mailto:abdusattarovadilfuza7@gmail.com">abdusattarovadilfuza7@gmail.com</a></div> </div></div>
+              </ul>
+              
+              <div class="footer__soc">
+                  <a href="https://wa.me/message/2EULGW5V7JYIM1" class="footer__soc-link">
+                      <img src="img/6422206.png" alt="">
+                  </a>
+                  <a href="https://www.facebook.com/profile.php?id=100090556025331&is_tour_dismissed=true" class="footer__soc-link">
+                      <img src="img/facebook.svg" alt="">
+                  </a>
+                  <a href="https://www.instagram.com/qchab.uz/" target="_blank" class="footer__soc-link">
+                      <img src="img/instagram.svg" alt="">
+                  </a>
+              </div>
+          </div>
+      </div>
+  </footer>   
+  </body>
 </html>
